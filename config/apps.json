@@ -1,0 +1,62 @@
+[
+  {
+    "id": "pomodewro",
+    "name": "Pomodewro",
+    "kind": "web",
+    "sourceRoot": "../mac-pomodoro",
+    "sourceItems": ["index.html"],
+    "bundlePath": "apps/pomodewro",
+    "entryPath": "apps/pomodewro/index.html",
+    "bridgeHandler": "pomodewroNative",
+    "storageNamespace": "deskit.pomodewro.",
+    "symbolName": "timer",
+    "accentHex": "#f97316",
+    "defaultPopoverSize": { "width": 800, "height": 490 }
+  },
+  {
+    "id": "dewdrops",
+    "name": "Dewdrops",
+    "kind": "web",
+    "sourceRoot": "../mac-dewdrops",
+    "sourceItems": ["index.html"],
+    "bundlePath": "apps/dewdrops",
+    "entryPath": "apps/dewdrops/index.html",
+    "bridgeHandler": "dewdropsNative",
+    "storageNamespace": "deskit.dewdrops.",
+    "symbolName": "drop.fill",
+    "accentHex": "#0ea5e9",
+    "defaultPopoverSize": { "width": 430, "height": 560 }
+  },
+  {
+    "id": "colourdrop",
+    "name": "ColourDrop",
+    "kind": "native",
+    "storageNamespace": "deskit.colourdrop.",
+    "symbolName": "eyedropper",
+    "accentHex": "#22c55e",
+    "defaultPopoverSize": { "width": 300, "height": 190 }
+  },
+  {
+    "id": "dewqraft",
+    "name": "DewQRaft",
+    "kind": "web",
+    "sourceRoot": "../dewQRaft",
+    "sourceItems": ["index.html", "vendor"],
+    "bundlePath": "apps/dewqraft",
+    "entryPath": "apps/dewqraft/index.html",
+    "bridgeHandler": "dewQRaftNative",
+    "storageNamespace": "deskit.dewqraft.",
+    "symbolName": "qrcode",
+    "accentHex": "#2563eb",
+    "defaultPopoverSize": { "width": 560, "height": 520 }
+  },
+  {
+    "id": "text-cleaner",
+    "name": "TextCleaner",
+    "kind": "native",
+    "storageNamespace": "deskit.text-cleaner.",
+    "symbolName": "text.badge.checkmark",
+    "accentHex": "#a855f7",
+    "defaultPopoverSize": { "width": 540, "height": 520 }
+  }
+]
